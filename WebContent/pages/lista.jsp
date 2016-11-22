@@ -6,7 +6,7 @@
 	{
 	%>
 	<h3><%= rs.getString(2) %></h3>
-	<p><%= rs.getString(3) %>  <%= rs.getString(4) %> </p>
+	<p><%= rs.getString(3) %>  <%= rs.getString(4) %> edad (<%= rs.getString("edad") %>)</p>
 	<a href="mailto:<%= rs.getString(6) %>"><%= rs.getString(6) %></a>
 	
 	<%	
