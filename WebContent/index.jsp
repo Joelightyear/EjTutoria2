@@ -7,6 +7,9 @@ if(request.getAttribute("page")!=null)
 	pag= request.getAttribute("page").toString();
 }
 switch (pag) {
+case "lista":
+	pag= new String("pages/lista.jsp");
+break;
 default:
 	pag= new String("pages/home.jsp");
 	break;

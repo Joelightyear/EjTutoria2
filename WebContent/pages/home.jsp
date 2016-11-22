@@ -1,5 +1,6 @@
 <div class="container">
 	<div class="row">
+	<a href="Login?g=1" class="btn btn-default btn-lg">Hazme click</a>
 		<div class="col-md-6 col-md-offset-3">
 			<div class="panel panel-login">
 				<div class="panel-heading">
